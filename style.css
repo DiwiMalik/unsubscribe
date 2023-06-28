@@ -1,0 +1,154 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.background
+{
+    width:50%;
+    height:44em;
+    margin-right: 70px;
+    margin-left: 50px;
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 5em;
+    margin:0;
+    padding:0;
+    text-align: right;
+    font-family:'Roboto',sans-serif;
+    position: absolute;
+    top:28%;
+    left:49%;
+    right:8%;
+}
+p{
+    font-size: 2em;
+    margin:0;
+    padding:0;
+    text-align: right;
+    font-family:'Roboto',sans-serif;
+    position: absolute;
+    top:60%;
+    left:56%;
+    right:8%;
+}
+@media screen and (max-width:1024px) {
+    .background{
+        flex:direction:0%;
+        padding block:10px;
+        top-right:none;
+    }
+    h1{
+        font-size: 3em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:28%;
+        left:59%;
+        right:8%;
+    }
+    p{
+        font-size: 2em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:60%;
+        left:57%;
+        right:8%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width:768px){
+    .background{
+        flex:direction:0%;
+        top:2%;         
+        padding block:10px;
+        top-right:none;
+    }
+    h1{
+        font-size: 3em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:18%;
+        left:59%;
+        right:8%;
+    }
+    p{
+        font-size: 2em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:40%;
+        left:57%;
+        right:8%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width:480px){
+    .background{
+        flex:direction:column;         
+        padding block:20px;
+        background-size::content;
+    }
+    h1{
+        font-size: 3em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:5%;
+        left:59%;
+        right:8%;
+    }
+    p{
+        font-size: 2em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:20%;
+        left:57%;
+        right:8%;
+    }
+}
+@media screen and (max-width: 480px) and (min-width:320px){
+    .background{
+        flex:direction:column;         
+        padding block:20px;
+        background-size::content;
+    }
+    h1{
+        font-size: 3em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:8%;
+        left:59%;
+        right:8%;
+    }
+    p{
+        font-size: 2em;
+        margin:0;
+        padding:0;
+        text-align: right;
+        font-family:'Roboto',sans-serif;
+        position: absolute;
+        top:20%;
+        left:57%;
+        right:8%;
+    }
+}
